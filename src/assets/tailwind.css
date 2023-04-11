@@ -1,0 +1,99 @@
+                    @tailwind base;
+                    @tailwind components;
+                    @tailwind utilities;
+                    @layer components {
+                        .your-movie {
+                            @apply text-3xl font-bold text-slate-600 cursor-pointer
+                        }
+                        .your-movie:hover {
+                            @apply drop-shadow-lg shadow-blue-900 text-slate-900
+                        }
+                        .main-section-name {
+                            @apply text-slate-500 border-b-2 border-red-600 w-fit
+                        }
+                        .section-order {
+                            @apply flex space-x-3 p-2
+                        }
+                        /* .section-order:hover {
+                            @apply bg-red-600 h-fit w-fit rounded-xl text-white p-2
+                        } */
+                        .section {
+                            @apply cursor-pointer text-slate-600
+                        }
+                        .section:hover {
+                            @apply bg-red-600 h-10 w-fit rounded-xl text-white px-5 py-2
+                        }
+                        /* .section:hover {
+                            @apply text-slate-900
+                        } */
+                        .support-card {
+                            @apply bg-gradient-to-tr from-slate-400 to-slate-200 rounded-3xl h-60 w-64 text-center p-5
+                        }
+                        .btn-support {
+                            @apply bg-slate-500 h-fit w-40 p-4 rounded-xl text-lg text-slate-100
+                        }
+                        .names-rates {
+                            @apply absolute left-0 right-0 top-10 m-4 z-0 p-16
+                        }
+                        .movie-name {
+                            @apply text-5xl text-white font-semibold
+                        }
+                        .movie-rate {
+                            @apply text-slate-100 text-sm m-2
+                        }
+                        .input-search {
+                            @apply text-slate-600 text-lg border-2 border-slate-400 rounded-3xl h-14 w-96 px-12 outline-slate-500
+                        }
+                        .user-icon {
+                            @apply bg-slate-300 h-14 w-14 p-3 border-4 border-red-600 rounded-full cursor-pointer
+                        }
+                        .slide-imgs {
+                            @apply rounded-tr-xl rounded-br-xl rounded-bl-xl h-auto max-w-full
+                        }
+                        .btns {
+                            @apply absolute left-0 right-0 bottom-0 m-4 z-0 p-16
+                        }
+                        .btn-watch {
+                            @apply bg-red-600 h-20 w-36 rounded-3xl text-slate-50 text-xl shadow-2xl shadow-red-700
+                        }
+                        .btn-watch:hover {
+                            @apply transition -translate-y-3 ease-in-out delay-150
+                        }
+                        .btn-fav {
+                            @apply h-20 w-20 shadow-2xl shadow-slate-900 backdrop-blur-md bg-slate-600 bg-opacity-25 rounded-3xl p-7
+                        }
+                        .btn-fav:hover {
+                            @apply transition -translate-y-3 ease-in-out delay-150
+                        }
+                        .film-type {
+                            @apply bg-yellow-400 text-slate-600 absolute top-0 p-1 rounded-r-md z-0
+                        }
+                        /* Movie Details apply */
+                        .film-title {
+                            @apply text-3xl bg-slate-300 p-3 rounded-xl h-fit w-fit text-center text-black
+                        }
+                        .imdb-rating {
+                            @apply bg-yellow-300 p-1 rounded-xl border-2 border-slate-800
+                        }
+                        .plot {
+                            @apply bg-slate-300 p-1 rounded-r-xl h-fit w-16 text-center text-lg
+                        }
+                        .section-detail {
+                            @apply text-slate-600
+                        }
+                        .pick {
+                            @apply bg-slate-300 h-fit w-14 rounded-xl p-2
+                        }
+                        .pick:hover {
+                            @apply transition -translate-y-3 ease-in-out delay-150
+                        }
+                        .pick-border {
+                            @apply flex space-x-4 border-b-2 border-slate-300 p-2 w-fit
+                        }
+                        .tr-watch-btns {
+                            @apply bg-slate-300 text-slate-900 rounded-xl p-2 text-lg
+                        }
+                        .tr-watch-btns:hover {
+                            @apply bg-yellow-300
+                        }
+                    }
